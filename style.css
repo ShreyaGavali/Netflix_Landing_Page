@@ -1,0 +1,325 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto Condensed';
+}
+html,body{
+    height:100%;
+}
+.backimg{
+    /* background-image: url("./images/netlogo.jpg"); */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./images/netlogo.jpg");
+    background-size: cover;
+    width:100%;
+    height:100%;
+    /* background-repeat: no-repeat; */
+    /* box-shadow: inset 120px 100px 250px #0000; */
+    
+}
+.navbar{
+    /* width:100%; */
+    display:flex;
+    justify-content: space-between;
+    /* margin-right:2rem;
+    margin-left:2rem; */
+    width:100%;
+}
+.logo img{
+    height:5rem;
+    max-width:calc(100% -3rem);
+}
+.logo{
+    height:fit-content;
+    width:fit-content;
+    /* margin-left:2rem;
+    margin-top:0px; */
+    display:flex-start;
+}
+.side{
+    margin-right:2rem;
+    display:flex;
+    margin-top:1.50rem;
+}
+.select{
+    background-color: rgba(0,0,0,.75);
+    height:1.50rem;
+    width:6rem;
+    padding-top: 0.50rem;
+    padding-left:0.50rem;
+    border-radius: 2px;
+    border-style:none;
+}
+i,p{
+    color:white;
+}
+.icon{
+    margin-right:5px;
+}
+.sin button{
+    height:1.80rem;
+    width:3.50rem;
+    margin-top: 2px;
+    margin-left:5px;
+    background-color: rgb(211, 28, 28);
+    border-style: none;
+    color:white;
+    border-radius: 2px;
+}
+select{
+    background-color: rgba(0,0,0,.75);
+    color:white;
+    border-style: none;
+}
+@media screen and (width <= 390px){
+    .navbar{
+        margin-right:0;
+        margin-left:0;
+    }
+    .logo{
+        width:1rem;
+    }
+    .select{
+        width:3rem;
+    }
+    .sin button{
+        width:auto;
+        /* background-color: black; */
+    }
+}
+@media screen and (width < 398px){
+    .lang{
+        display:none;
+    }
+}
+
+.heading h1{
+    text-align: center;
+    color:white;
+    font-size:2rem;
+    font-weight:700;
+}
+.p1{
+    text-align:center;
+    margin-top:1rem;
+    font-size:1.125rem;
+    font-weight:bold;
+}
+.p2{
+    text-align:center;
+    margin-top:1rem;
+    font-size:1.125rem;
+    font-weight:bold;
+    line-height:1.167rem;
+
+}
+.inp{
+    margin-top:0.50rem;
+    text-align:center;
+}
+.heading{
+    margin-top:8rem;
+}
+input{
+    width:30%;
+    height:1rem;
+    padding:1rem;
+    background-color:rgba(0,0,0,.75);
+    color:white;
+    border-style: none;
+    border-radius:2px;
+    font-size:large;
+}
+.btn{
+    width:8rem;
+    height:2.50rem;
+    background-color:rgb(211, 28, 28);
+    font-size:large;
+    border-style: none;
+    color:white;
+    margin-left:0.50rem;
+}
+.poster1{
+    height:25rem;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster1 h1{
+    color:white;
+}
+.poster1 img{
+    height:18rem;
+    width:100%;
+}
+.head2{
+    text-align: center;
+    margin-bottom:3rem;
+}
+@media screen and (width >= 960px){
+    .poster1{
+        flex-direction: row;
+    }
+}
+.poster2{
+    height: 25rem;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.poster2 img{
+    height:15rem;
+    width:100%;
+}
+.head3{
+    text-align:center;
+    margin-bottom:3rem;
+}
+.poster2 h1{
+    color:white;
+}
+@media screen and (width >= 960px){
+    .poster2{
+        flex-direction: row;
+        
+    }
+    .poster2-img2{
+        order: 1;
+    }
+    .head3{
+        order: 2;
+    }
+}
+.faq{
+    height:35rem;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    width:60%;
+    height:3rem;
+    background-color: rgb(65, 59, 59);
+    display:flex;
+    border-style: none;
+    padding:1rem;
+    margin-bottom:0.50rem;
+}
+.faq button div{
+    color:white;
+}
+.faq button div{
+    margin-left:1rem;
+    font-size:larger;
+}
+.faqin{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+}
+/* .faqin button{
+    width:10rem;
+    background-color: rgba(211,28,28);
+    border-style:none;
+    color:white;
+    /* text-align: center; 
+    font-size:larger;
+    margin-top:1.50rem;
+}
+@media screen and (width <= 824px){
+    .faqin button{
+        font-size:10px;
+    }
+}*/
+@media screen and (width <= 313px){
+    .faqin button{
+        width:auto;
+        /* font-size:5px; */
+    }
+    .faqin input{
+        width:30%;
+    }
+} 
+/* .faqin input{
+    width:30rem;
+     margin-right:1rem; 
+    background-color:transparent;
+    border:2px solid white;
+     margin-top:1rem; 
+} */
+.faqp{
+    font-size:larger;
+    margin-top:1rem;
+    text-align: center;
+}
+.faq h1{
+    margin-bottom: 1rem;
+}
+.footer{
+    background-color:black;
+    height:25rem;
+}
+.abc .f1,.f2,.f3{
+    display:flex;
+    flex-direction:column;
+}
+.abc{
+    display:flex;
+    justify-content:space-evenly;
+}
+.footer .p4,.p5,.select{
+    margin-left:5rem;
+}
+.p5{
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+.footer .select{
+    margin-top:2rem;
+}
+.p4{
+    margin-top:1rem;
+}
+.abc a{
+    color:white;
+}
+.singin .l{
+    max-width:clac(100% - 3rem);
+    height:5rem;
+}
+.singin div{
+    height:20rem;
+    width:40%;
+    background-color: rgba(0,0,0,.75);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left:30%
+}
+.xyz h1{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    color:white;
+}
+.xyz input{
+    background-color: white;
+    width:60%;
+    margin-bottom:1rem;
+    color:black;
+}
+.xyz button{
+    width:40%;
+    height:3rem;
+    background-color: rgb(211, 28, 28);
+    border-style: none;
+    font-size:larger;
+}
+
