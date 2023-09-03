@@ -41,7 +41,6 @@ html,body{
     margin-top:1.50rem;
 }
 .select{
-    display:flex;
     background-color: rgba(0,0,0,.75);
     height:1.50rem;
     width:6rem;
