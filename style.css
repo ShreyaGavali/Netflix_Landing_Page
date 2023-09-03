@@ -70,7 +70,7 @@ select{
     color:white;
     border-style: none;
 }
-@media screen and (width <= 390px){
+@media all and (width <= 390px){
     .navbar{
         margin-right:0;
         margin-left:0;
@@ -86,7 +86,7 @@ select{
         /* background-color: black; */
     }
 }
-@media screen and (width < 398px){
+@media all and (width < 398px){
     .lang{
         display:none;
     }
